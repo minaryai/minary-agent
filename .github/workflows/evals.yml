@@ -1,0 +1,23 @@
+name: evals
+
+on:
+  pull_request:
+    branches: [main, develop]
+  workflow_dispatch:
+
+jobs:
+  eval:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: pip install -e ".[dev]"
+      - name: run eval suite
+        run: python -m evals.harness --suite planning,tool_use --threshold 0.80
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+      - name: post eval results
+        if: github.event_name == 'pull_request'
+        run: echo "eval results posted to PR" # placeholder
