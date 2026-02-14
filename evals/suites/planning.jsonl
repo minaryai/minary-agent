@@ -1,0 +1,5 @@
+{"id":"plan-001","task":"create a file with 3 sections","expected_tools":["file_write"],"expected_steps":1}
+{"id":"plan-002","task":"search for X then summarize findings","expected_tools":["web_search","file_write"],"expected_steps":2}
+{"id":"plan-003","task":"compare two APIs and recommend one","expected_tools":["web_search","web_search"],"expected_steps":3}
+{"id":"plan-004","task":"debug a failing test by reading logs then fixing code","expected_tools":["file_read","file_write"],"expected_steps":3}
+{"id":"plan-005","task":"set up a new project with git, readme, and CI","expected_tools":["bash","file_write","file_write"],"expected_steps":4}
