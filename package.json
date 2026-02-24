@@ -8,5 +8,8 @@
     "test": "node --test tests/*.test.mjs",
     "lint": "eslint src/",
     "format": "prettier --write ."
+  },
+  "dependencies": {
+    "pino": "^9.5.0"
   }
 }
