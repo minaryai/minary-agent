@@ -1,0 +1,16 @@
+name: 💡 Feature request
+description: A new capability or flag
+title: "[feat]: "
+labels: ["enhancement"]
+body:
+  - type: textarea
+    id: what
+    attributes: { label: What, description: "One sentence." }
+    validations: { required: true }
+  - type: textarea
+    id: why
+    attributes: { label: Why, description: "What does this enable that existing features don't?" }
+    validations: { required: true }
+  - type: textarea
+    id: how
+    attributes: { label: How (sketch), render: js }

@@ -1,0 +1,36 @@
+name: 🐞 Bug report
+description: Something is broken
+title: "[bug]: "
+labels: ["bug", "triage"]
+body:
+  - type: textarea
+    id: what
+    attributes:
+      label: What happened?
+      description: What did you run, what did you expect, what did you actually get?
+    validations: { required: true }
+  - type: textarea
+    id: reproduce
+    attributes:
+      label: Steps to reproduce
+      render: bash
+    validations: { required: true }
+  - type: textarea
+    id: output
+    attributes:
+      label: Output
+      render: json
+  - type: input
+    id: version
+    attributes: { label: Version, placeholder: "0.1.0" }
+    validations: { required: true }
+  - type: input
+    id: node
+    attributes: { label: Node version, placeholder: "v20.19.0" }
+    validations: { required: true }
+  - type: dropdown
+    id: os
+    attributes:
+      label: OS
+      options: [macOS, Linux, Windows (WSL), Windows (native), other]
+    validations: { required: true }
