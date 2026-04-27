@@ -6,6 +6,12 @@ export const config = {
   thinkingBudget: parseInt(process.env.THINKING_BUDGET || '10000', 10),
   enableCache: process.env.ENABLE_CACHE !== 'false',
   enableThinking: process.env.ENABLE_THINKING !== 'false',
+  enableTraceDump: process.env.ENABLE_TRACE_DUMP === 'true',
   logLevel: process.env.LOG_LEVEL || 'warn',
   traceDir: process.env.TRACE_DIR || './traces',
+  // multi-chain
+  chains: {
+    base: { rpc: process.env.BASE_RPC || 'https://mainnet.base.org' },
+    solana: { rpc: process.env.SOLANA_RPC || 'https://api.mainnet-beta.solana.com' },
+  },
 };
