@@ -9,6 +9,10 @@ __pycache__/
 .pytest_cache/
 .mypy_cache/
 .ruff_cache/
-traces/
+traces/*.jsonl
+traces/*.json
 evals/results/*.jsonl
 .health
+*.tmp
+.vscode/
+.idea/
