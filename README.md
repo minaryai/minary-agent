@@ -24,20 +24,7 @@
 
 <br/>
 
-<div align="center">
 
-### `` · live on 
-
-```
-
-```
-
-[![Explorer](https://img.shields.io/badge/Explorer-View-181717?style=for-the-badge&logo=ethereum&logoColor=white)](https://basescan.org/address/)
-[![Dexscreener](https://img.shields.io/badge/Dexscreener-Chart-ffb340?style=for-the-badge&logoColor=black)](https://dexscreener.com//)
-
-</div>
-
-<br/>
 
 ## ⌬ tl;dr
 
