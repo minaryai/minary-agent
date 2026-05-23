@@ -1,6 +1,8 @@
-<a href="https://github.com/minaryai/minary-agent">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0a0a0a,50:1a1a2e,100:16213e&height=220&section=header&text=minary-agent&fontSize=88&fontColor=ffffff&fontAlignY=38&desc=autonomous+AI+agent+framework+%E2%80%94+self-improving+runtime&descAlignY=62&descSize=16&animation=fadeIn" alt="minary-agent header" />
-</a>
+<div align="center">
+  <a href="https://github.com/minaryai/minary-agent">
+    <img src="https://raw.githubusercontent.com/minaryai/minary-agent/main/assets/banner.jpg" alt="minary" width="100%" />
+  </a>
+</div>
 
 <div align="center">
 
