@@ -26,7 +26,7 @@
 
 <br/>
 
-> **autonomous AI agent framework — self-improving runtime with built-in learning loops, Solana execution engine, 40+ tools, 200+ model routing targets.**
+> **autonomous AI agent framework — self-improving runtime with built-in learning loops, Solana execution, 40+ tools, 200+ model routing targets.**
 
 <br/>
 
@@ -73,7 +73,7 @@ minary-agent --model claude-4.7-sonnet --task "analyze this repo"
 # run with extended thinking
 minary-agent --thinking 32k --task "plan a migration strategy"
 
-# multi-chain mode
+# solana mode
 minary-agent --chain solana --task "check token holdings"
 ```
 
