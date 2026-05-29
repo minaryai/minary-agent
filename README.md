@@ -26,6 +26,14 @@
 
 <br/>
 
+<div align="center">
+
+**$MINARY** on Solana — [`35WYEqUuSUV1RpU9CUNfETHDBWVnPbFBks4EDFX4pump`](https://solscan.io/token/35WYEqUuSUV1RpU9CUNfETHDBWVnPbFBks4EDFX4pump)
+
+</div>
+
+<br/>
+
 > **autonomous AI agent framework — self-improving runtime with built-in learning loops, Solana execution, 40+ tools, 200+ model routing targets.**
 
 <br/>
