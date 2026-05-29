@@ -1,6 +1,6 @@
 <div align="center">
-  <a href="https://github.com/minaryai/minary-agent">
-    <img src="https://raw.githubusercontent.com/minaryai/minary-agent/main/assets/banner.jpg" alt="minary" width="100%" />
+  <a href="https://github.com/arcanprotocol/minary-agent">
+    <img src="https://raw.githubusercontent.com/arcanprotocol/minary-agent/main/assets/banner.jpg" alt="minary" width="100%" />
   </a>
 </div>
 
@@ -8,19 +8,19 @@
 
 [![License](https://img.shields.io/badge/license-MIT-blue.svg?style=for-the-badge)](LICENSE)
 [![Node](https://img.shields.io/badge/node-%E2%89%A520-339933.svg?style=for-the-badge&logo=node.js&logoColor=white)](#install)
-[![CI](https://img.shields.io/badge/ci-passing-4cd964.svg?style=for-the-badge&logo=githubactions&logoColor=white)](https://github.com/minaryai/minary-agent/actions)
-[![Version](https://img.shields.io/badge/version-0.5.0--beta-cd5cff.svg?style=for-the-badge)](https://github.com/minaryai/minary-agent/releases)
+[![CI](https://img.shields.io/badge/ci-passing-4cd964.svg?style=for-the-badge&logo=githubactions&logoColor=white)](https://github.com/arcanprotocol/minary-agent/actions)
+[![Version](https://img.shields.io/badge/version-0.5.0--beta-cd5cff.svg?style=for-the-badge)](https://github.com/arcanprotocol/minary-agent/releases)
 [![Models](https://img.shields.io/badge/models-200+-ffb340.svg?style=for-the-badge&logo=openai&logoColor=white)](#model-routing)
 [![Tools](https://img.shields.io/badge/tools-40+-88e1f2.svg?style=for-the-badge&logo=stackblitz&logoColor=white)](#built-in-tools)
 
 <br/>
 
-[![GitHub stars](https://img.shields.io/github/stars/minaryai/minary-agent?style=flat-square&color=ffb340&labelColor=0a0a0a)](https://github.com/minaryai/minary-agent/stargazers)
-[![GitHub forks](https://img.shields.io/github/forks/minaryai/minary-agent?style=flat-square&color=88e1f2&labelColor=0a0a0a)](https://github.com/minaryai/minary-agent/network)
-[![Open Issues](https://img.shields.io/github/issues/minaryai/minary-agent?style=flat-square&color=cd5cff&labelColor=0a0a0a)](https://github.com/minaryai/minary-agent/issues)
-[![Closed Issues](https://img.shields.io/github/issues-closed/minaryai/minary-agent?style=flat-square&color=4cd964&labelColor=0a0a0a)](https://github.com/minaryai/minary-agent/issues?q=is%3Aissue+is%3Aclosed)
-[![PRs](https://img.shields.io/github/issues-pr-closed/minaryai/minary-agent?style=flat-square&color=ffb340&labelColor=0a0a0a&label=merged%20PRs)](https://github.com/minaryai/minary-agent/pulls?q=is%3Apr+is%3Aclosed)
-[![Last commit](https://img.shields.io/github/last-commit/minaryai/minary-agent?style=flat-square&color=4cd964&labelColor=0a0a0a)](https://github.com/minaryai/minary-agent/commits/main)
+[![GitHub stars](https://img.shields.io/github/stars/arcanprotocol/minary-agent?style=flat-square&color=ffb340&labelColor=0a0a0a)](https://github.com/arcanprotocol/minary-agent/stargazers)
+[![GitHub forks](https://img.shields.io/github/forks/arcanprotocol/minary-agent?style=flat-square&color=88e1f2&labelColor=0a0a0a)](https://github.com/arcanprotocol/minary-agent/network)
+[![Open Issues](https://img.shields.io/github/issues/arcanprotocol/minary-agent?style=flat-square&color=cd5cff&labelColor=0a0a0a)](https://github.com/arcanprotocol/minary-agent/issues)
+[![Closed Issues](https://img.shields.io/github/issues-closed/arcanprotocol/minary-agent?style=flat-square&color=4cd964&labelColor=0a0a0a)](https://github.com/arcanprotocol/minary-agent/issues?q=is%3Aissue+is%3Aclosed)
+[![PRs](https://img.shields.io/github/issues-pr-closed/arcanprotocol/minary-agent?style=flat-square&color=ffb340&labelColor=0a0a0a&label=merged%20PRs)](https://github.com/arcanprotocol/minary-agent/pulls?q=is%3Apr+is%3Aclosed)
+[![Last commit](https://img.shields.io/github/last-commit/arcanprotocol/minary-agent?style=flat-square&color=4cd964&labelColor=0a0a0a)](https://github.com/arcanprotocol/minary-agent/commits/main)
 
 </div>
 
@@ -53,7 +53,7 @@ observe → plan → act → learn → persist
 ## ⌬ quickstart
 
 ```bash
-git clone https://github.com/minaryai/minary-agent
+git clone https://github.com/arcanprotocol/minary-agent
 cd minary-agent
 npm install
 cp .env.example .env   # add your API keys
@@ -188,7 +188,7 @@ minary routes tasks to the optimal model automatically. no manual model selectio
 
 <table>
 <tr><th>Category</th><th>Tools</th><th>Description</th></tr>
-<tr><td><b>Chain</b></td><td><code>base-rpc</code> <code>solana-rpc</code> <code>helius-rpc</code> <code>alchemy-rpc</code></td><td>on-chain reads, tx construction, token balances, swap routing</td></tr>
+<tr><td><b>Chain</b></td><td><code>solana-rpc</code> <code>helius-rpc</code></td><td>on-chain reads, tx construction, token balances, swap routing</td></tr>
 <tr><td><b>Search</b></td><td><code>web-search</code> <code>web-scrape</code> <code>arxiv</code> <code>github-search</code></td><td>real-time information retrieval</td></tr>
 <tr><td><b>Code</b></td><td><code>code-exec</code> <code>code-review</code> <code>test-runner</code></td><td>sandboxed execution, static analysis, test generation</td></tr>
 <tr><td><b>Memory</b></td><td><code>mem-store</code> <code>mem-retrieve</code> <code>mem-search</code></td><td>persistent knowledge with semantic retrieval</td></tr>
@@ -236,7 +236,6 @@ native on-chain interaction without external bridges or wrappers.
 
 | Chain | RPC | Capabilities |
 |-------|-----|-------------|
-| **Base** | `base-rpc` + `alchemy-rpc` | ERC-20 balances, contract reads, tx construction, gas estimation |
 | **Solana** | `solana-rpc` + `helius-rpc` | SPL token ops, Jupiter swap routing, DAS API, priority fees |
 
 ```javascript
@@ -329,7 +328,6 @@ minary-agent --mcp --transport stdio
 ![JavaScript](https://img.shields.io/badge/ESM-f7df1e.svg?style=for-the-badge&logo=javascript&logoColor=black)
 ![MCP](https://img.shields.io/badge/MCP_Protocol-191919.svg?style=for-the-badge&logo=anthropic&logoColor=white)
 ![Solana](https://img.shields.io/badge/Solana-9945FF.svg?style=for-the-badge&logo=solana&logoColor=white)
-![Base](https://img.shields.io/badge/Base-0052FF.svg?style=for-the-badge&logo=coinbase&logoColor=white)
 
 </div>
 
@@ -337,7 +335,7 @@ minary-agent --mcp --transport stdio
 
 ## ⌬ contributing
 
-bug reports + feature requests → [issues](https://github.com/minaryai/minary-agent/issues). read [CONTRIBUTING.md](CONTRIBUTING.md) first.
+bug reports + feature requests → [issues](https://github.com/arcanprotocol/minary-agent/issues). read [CONTRIBUTING.md](CONTRIBUTING.md) first.
 
 security findings → [SECURITY.md](SECURITY.md). **do not open public issues for vulnerabilities.**
 
@@ -349,7 +347,7 @@ security findings → [SECURITY.md](SECURITY.md). **do not open public issues fo
 - [x] 40+ built-in tools
 - [x] multi-model routing (200+ targets)
 - [x] prompt caching (90%+ hit rate)
-- [x] Base + Solana chain support
+- [x] Solana chain support
 - [x] MCP server protocol
 - [x] eval regression gate in CI
 - [ ] recursive self-improvement loop (v0.6)
@@ -357,7 +355,7 @@ security findings → [SECURITY.md](SECURITY.md). **do not open public issues fo
 - [ ] on-chain skill verification
 - [ ] distributed agent swarm
 
-see [open issues](https://github.com/minaryai/minary-agent/issues) for current priorities.
+see [open issues](https://github.com/arcanprotocol/minary-agent/issues) for current priorities.
 
 <br/>
 
