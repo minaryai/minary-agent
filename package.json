@@ -1,7 +1,7 @@
 {
   "name": "minary-agent",
   "version": "0.1.0",
-  "description": "autonomous AI agent framework — self-improving runtime with built-in learning loops, multi-chain execution, 40+ tools.",
+  "description": "autonomous AI agent framework — self-improving runtime with built-in learning loops, Solana execution, 40+ tools.",
   "type": "module",
   "license": "MIT",
   "scripts": {

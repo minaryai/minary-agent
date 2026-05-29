@@ -26,7 +26,7 @@
 
 <br/>
 
-> **autonomous AI agent framework — self-improving runtime with built-in learning loops, multi-chain execution engine, 40+ tools, 200+ model routing targets.**
+> **autonomous AI agent framework — self-improving runtime with built-in learning loops, Solana execution engine, 40+ tools, 200+ model routing targets.**
 
 <br/>
 
@@ -44,7 +44,7 @@ observe → plan → act → learn → persist
 **key ideas:**
 - **skill extraction** — agent watches its own successful tool-use chains and crystallizes them into reusable skills
 - **recursive planning** — planner spawns sub-planners for complex tasks, merges results
-- **multi-chain execution** — native Base + Solana transaction construction from LLM output
+- **Solana execution** — native Solana transaction construction from LLM output
 - **model routing** — automatic selection across 200+ models based on task complexity, latency budget, and cost
 - **persistent memory** — cross-session knowledge graph with semantic retrieval
 
@@ -74,7 +74,7 @@ minary-agent --model claude-4.7-sonnet --task "analyze this repo"
 minary-agent --thinking 32k --task "plan a migration strategy"
 
 # multi-chain mode
-minary-agent --chain base,solana --task "check token holdings"
+minary-agent --chain solana --task "check token holdings"
 ```
 
 <br/>
@@ -98,7 +98,6 @@ minary-agent/
 │   └── learner.mjs             # skill extraction + reward signals
 │
 ├── tools/
-│   ├── base-rpc.mjs            # Base chain interaction
 │   ├── solana-rpc.mjs          # Solana transaction construction
 │   ├── web-search.mjs          # search + scrape
 │   ├── code-exec.mjs           # sandboxed code execution
@@ -231,7 +230,7 @@ all tools are exposed via **MCP protocol** — connect minary as a tool provider
 
 <br/>
 
-## ⌬ multi-chain execution
+## ⌬ Solana execution
 
 native on-chain interaction without external bridges or wrappers.
 
